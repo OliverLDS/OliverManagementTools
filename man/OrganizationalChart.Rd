@@ -2,10 +2,10 @@
 \alias{OliverOrganizationalChart}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Create organizational chart through ggplot2
+Generate Organizational Chart using ggplot2
 }
 \description{
-Other packages like DiagrammeR need html support. So it would be useful to have a package to generate organizational chart based on ggplot2. The outputs could be better supported by MS word or markdown format files.
+Numerous excellent packages, such as DiagrammeR, exist that can construct sophisticated organizational charts. However, these packages rely on JavaScript, which does not have robust support for rendering Microsoft Word files. This feature enables you to create an organizational chart solely utilizing the ggplot2 package, which has exceptional support for rendering Microsoft Word files from Rmarkdown.
 }
 \usage{
 OliverOrganizationalChart(x)
